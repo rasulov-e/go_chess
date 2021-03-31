@@ -1,0 +1,39 @@
+:root {
+  --colorBackground: rgb(36, 36, 36);
+  --colorHeader: rgb(61, 61, 61);
+  --textColor: white;
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--textColor);
+}
+body {
+  height: 100%;
+  background-color: var(--colorBackground);
+}
+
+header {
+  height: 5vw;
+  display: flex;
+  background-color: var(--colorHeader);
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+}
